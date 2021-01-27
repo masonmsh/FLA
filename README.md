@@ -12,7 +12,7 @@ Two designs based on factor-level attention: **Design1** & **Design2**. Design1 
 - TensorFlow: '1.5.0'
 
 ## Dataset
-The datasets of NAIS and DeepICF are common, so we only upload them in the NAIS folder. If you need to run DeepICF, please copy the datasets to the DeepICF folder.
+The datasets of NAIS and DeepICF.
 **train.rating:**
 - Train file.
 - Each Line is a training instance: userID\t itemID\t rating\t timestamp (if have)

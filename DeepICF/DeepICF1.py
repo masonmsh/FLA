@@ -234,7 +234,7 @@ class DeepICF_a:
 
 def training(flag, model, dataset, epochs, num_negatives):
 
-    weight_path = 'Pretraining/%s/%s/d2/%s/' % (model.dataset_name, model.embedding_size,model.beta)
+    weight_path = 'Pretraining/%s/%s/d1/%s/' % (model.dataset_name, model.embedding_size,model.beta)
     saver = tf.train.Saver({'c1':model.c1, 'embedding_Q':model.embedding_Q, 'bias':model.bias})
     if not os.path.exists(weight_path):
         os.makedirs(weight_path)
