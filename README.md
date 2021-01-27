@@ -11,6 +11,15 @@ Two designs based on factor-level attention: **Design1** & **Design2**. Design1 
 - Python: '2.7'
 - TensorFlow: '1.5.0'
 
+*If there is a cuda error when using GPU to run the program, you can use the following configuration:*  
+**NAIS**  
+- cuda: '9.0'
+- cudnn: '7.6.5'
+
+**DeepICF**  
+- cuda: '8.0'
+- cudnn: '7.0.5'
+
 ## Dataset
 The datasets of NAIS and DeepICF.
 **train.rating:**
