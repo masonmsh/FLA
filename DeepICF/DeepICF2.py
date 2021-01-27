@@ -1,3 +1,7 @@
+'''
+Changes based on the DeepICF method: adding a single-layer attention (Design2)
+DeepICF source code link: https://github.com/linzh92/DeepICF
+'''
 from __future__ import absolute_import
 from __future__ import division
 

@@ -1,3 +1,7 @@
+'''
+Changes based on the NAIS method: adding a two-layer attention (Design1)
+NAIS source code link: https://github.com/hexiangnan/Neural-Attentive-Item-Similarity-Model
+'''
 from __future__ import absolute_import
 from __future__ import division
 
