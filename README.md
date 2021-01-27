@@ -58,11 +58,11 @@ cd NAIS
 ```
 *Design1*
 ```
-python NAIS1.py--dataset Digital_Music --lr 0.01 --embed_size 16 --weight_size 16 --beta 0.7
+python NAIS1.py--dataset Digital_Music --lr 0.01 --embed_size 16 --weight_size 16 --beta 0.7 --pretrain 0
 ```
 *Design2*
 ```
-python NAIS2.py--dataset Digital_Music --lr 0.01 --embed_size 16 --weight_size 16 --beta 0.7
+python NAIS2.py--dataset Digital_Music --lr 0.01 --embed_size 16 --weight_size 16 --beta 0.7 --pretrain 0
 ```
 **with pretraining**
 ```
@@ -83,11 +83,11 @@ cd DeepICF
 ```
 *Design1*
 ```
-python DeepICF1.py--dataset Digital_Music --lr 0.01 --embed_size 16 --weight_size 16 --beta 0.5
+python DeepICF1.py--dataset Digital_Music --lr 0.01 --embed_size 16 --weight_size 16 --beta 0.5 --pretrain 0
 ```
 *Design2*
 ```
-python DeepICF2.py--dataset Digital_Music --lr 0.01 --embed_size 16 --weight_size 16 --beta 0.5
+python DeepICF2.py--dataset Digital_Music --lr 0.01 --embed_size 16 --weight_size 16 --beta 0.5 --pretrain 0
 ```
 **with pretraining**
 ```
