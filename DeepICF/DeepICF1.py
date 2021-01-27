@@ -1,5 +1,5 @@
 '''
-Changes based on the DeepICF method: adding a two-layer attention (Design1)
+Change based on the DeepICF method: adding a two-layer attention (Design1)
 DeepICF source code link: https://github.com/linzh92/DeepICF
 '''
 from __future__ import absolute_import

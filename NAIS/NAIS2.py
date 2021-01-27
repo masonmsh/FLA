@@ -1,5 +1,5 @@
 '''
-Changes based on the NAIS method: adding a single-layer attention (Design2)
+Change based on the NAIS method: adding a single-layer attention (Design2)
 NAIS source code link: https://github.com/hexiangnan/Neural-Attentive-Item-Similarity-Model
 '''
 from __future__ import absolute_import
